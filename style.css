@@ -1,0 +1,256 @@
+.top{
+    height: 8%;
+    position: fixed;
+    padding: 0.7cm 1cm;
+    width: 100%;
+    z-index: 10;
+
+}
+body{
+    background-color: #EEEEEE;
+   
+}
+
+.header-left{
+    float:left;
+}
+.header-right{
+    float: right;
+    
+}
+.header-right ul{
+    list-style: none;
+
+}
+.header-right li{
+    display: inline-block;
+    font-size: 16px;
+}
+.menu{
+    padding-left: 1cm;
+}
+.menu.login a:hover{
+    color:red;
+    transition: all 0.5s;
+
+}
+.menu.login a{
+    color:black;
+    text-decoration: none;
+}
+.menu.muryo{
+    padding:0.25cm 0.4cm;
+    background-color: black;
+    color:white;
+    margin-left: 0.4cm;
+    width: 4cm;
+}
+.menu.muryo:hover{
+    background-color:#333333
+}
+.menu.muryo a{
+    text-decoration: none;
+    color:white;
+}
+.main-top{
+    padding-top: 6cm;
+    padding-left: 3cm;
+    padding-bottom: 1.5cm;
+    
+
+}
+.project{
+    color: #555555;
+    font-weight: 900;
+    font-style: oblique;
+    font-family: ＭＳ Ｐゴシック;
+}
+.up{
+    color:#999999;
+    padding-bottom: 1cm;
+}
+.main-top h1{
+    padding-top: 0.7cm;
+    padding-bottom: 0.3cm;
+    
+}
+.main{
+    padding-left: 3cm;
+    padding-right: 3cm;
+    display: flex;
+    justify-content:space-between;
+}
+.text{
+    font-family: MS Serif;
+    font-weight: 600;
+}
+
+.box{
+    background-color: white;
+    width: 30%;
+    height: 450px;
+    padding: 1.5cm 1cm 0.5cm 0.8cm;
+}
+.new{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 4px 10px;
+    background-color:orange;
+    font-family: SimSun;
+    font-size: 20px;
+
+}
+.maney{
+    font-size: 60px;
+    font-weight: 600;
+    
+}
+.en{
+    padding-top: 20px;
+}
+.a{
+    color: #BBBBBB;
+}
+.futo{
+    font-weight: 700;
+    
+}
+.box ul{
+    list-style: none;
+    font-size: 18px;
+    padding-top: 20px;
+    line-height: 40px;
+}
+.hazime{
+    background-color: black;
+    color:white;
+    border-radius:5px;
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 30px;
+
+}
+.hazime a{
+    text-decoration: none;
+    color:white;
+}
+
+.hazime:hover{
+    background-color:#333333
+
+}
+.ichiran{
+    font-size: 20px;
+    font-weight: 800;
+}
+.free{
+    font-family: MS Serif;
+}
+.height{
+    font-weight: 700;
+}
+.tbody-one tr{
+    width: 30%;
+    
+}
+.tbody-one td{
+    border-bottom: 1px solid #EEEEEE;
+    padding-right: 80px;
+   
+
+}
+.table-one{
+    background-color: white;
+    width: 700px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin:80px 80px;
+    line-height: 60px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+.graph{
+    font-size: 15px;
+}
+.tbody-one{
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+.gazo{
+    background-color: white;
+    width: 100%;
+    height: 900px;
+    margin-top:80px;
+    border-bottom:1px solid  #EEEEEE;
+}
+.sa{
+    font-size: 65px;
+    text-align: center;
+    font-weight: 900;
+    margin-top:80px;
+}
+.hazime.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    text-align: center;
+}
+.to img{
+    width: 300px;
+    padding-right: 20px;
+    margin-top:80px;
+    filter: drop-shadow(0px 0px  8px #EEEEEE);
+    z-index: 1;
+}
+.to{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.to ul{
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.to li{
+    filter: drop-shadow(0px 0px  8px #EEEEEE);
+    list-style: none;
+}
+.goto-one:hover{
+    background-color: rgba(0,0,0,0.6);
+    z-index: 10;
+
+}
+
+.one{
+    font-weight: 700;
+}
+.main-footer tr{
+    font-size: 15px;
+    color:#555555;
+}
+.main-footer{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.main-footer table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-footer td{
+    padding-left:100px;
+    padding-top:30px;
+}
+.fa.fa-twitter:hover{
+    background-color: skyblue;
+}
